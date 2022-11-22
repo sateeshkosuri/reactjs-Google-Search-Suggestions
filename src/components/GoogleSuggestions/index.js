@@ -54,7 +54,7 @@ class GoogleSuggestions extends Component {
               <SuggestionItem
                 googleList={each}
                 key={each.id}
-                onChange={this.onChangeSearchInput}
+                updatedList = {this.onChangeSearchInput}
               />
             ))}
           </ul>
