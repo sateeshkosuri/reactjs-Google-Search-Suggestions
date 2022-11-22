@@ -2,10 +2,10 @@ import './index.css'
 
 const SuggestionItem = props => {
   const {googleList} = props
-  const {suggestion, onChange} = googleList
+  const {suggestion, updatedList} = googleList
 
   const onClicked = id => {
-    onChange(id)
+    updatedList(id)
   }
 
   return (
